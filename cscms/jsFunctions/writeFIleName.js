@@ -21,7 +21,16 @@ const writeFile = () => {
             if (err) {
                 console.error(err);
             }
-            const code = `public class ID_${filename} {\n\n}`;
+            const code = `import java.util.Scanner;
+
+            public class ID_${filename} {
+                public static void main(String[] args) {
+
+                    
+                    sc.close();
+                }
+            }`;
+            // const code = `public class ID_${filename} {\n\n}`;
             fs.writeFile(path.join(folder, `ID_${filename}.java`), code, (err) => {
                 if (err) {
                     console.error(err);

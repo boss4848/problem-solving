@@ -1,5 +1,3 @@
-package leet_code.java;
-
 public class ID_9_PalindromeNumber {
     public static void main(String[] args) {
         int x = 123454321;

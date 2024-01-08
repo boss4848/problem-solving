@@ -1,5 +1,3 @@
-package leet_code.java;
-
 import java.util.Scanner;
 
 public class ID_1_TwoSum {
